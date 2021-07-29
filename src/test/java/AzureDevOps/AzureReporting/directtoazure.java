@@ -12,7 +12,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+import java.util.concurrent.TimeUnit;
 
 public class directtoazure {
 	public static WebDriver driver;
