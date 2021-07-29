@@ -34,7 +34,9 @@ public class directtoazure {
 		driver = new ChromeDriver();
 		test.info("Launching URL");
 		driver.get("http://sampleapp.tricentis.com");
-		//driver.findElement(By.id("nav_automobile")).click();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.findElement(By.id("nav_automobile")).click();
 		test.pass("Clicked on Automobile link");
 		try {
 			Assert.assertEquals("Tricentis Vehicle Insurance", driver.getTitle());
