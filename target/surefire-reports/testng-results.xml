@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14759" started-at="2021-07-29T22:00:34 AEST" finished-at="2021-07-29T22:00:48 AEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14759" started-at="2021-07-29T22:00:34 AEST" finished-at="2021-07-29T22:00:48 AEST">
+      <class name="AzureDevOps.AzureReporting.directtoazure">
+        <test-method status="PASS" signature="automation1()[pri:0, instance:AzureDevOps.AzureReporting.directtoazure@4fe3c938]" name="automation1" duration-ms="14685" started-at="2021-07-29T22:00:34 AEST" finished-at="2021-07-29T22:00:48 AEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automation1 -->
+      </class> <!-- AzureDevOps.AzureReporting.directtoazure -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
